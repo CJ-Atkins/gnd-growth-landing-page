@@ -1,0 +1,128 @@
+.social {
+  padding: 6rem 12rem;
+  background-color: #fbf9f9;
+}
+
+.social__header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social__header-txt-container {
+  max-width: 350px;
+  font-size: 16px;
+  padding-top: 4em;
+}
+
+.social__header-img-container {
+  margin-right: 2em;
+}
+
+.social__header-img {
+  width: 100%;
+}
+
+.social__header-line {
+  border-bottom: 0.3em solid var(--color-font-blue);
+  border-radius: 20em;
+  width: 40px;
+  margin-bottom: 1em;
+}
+
+.social__header-heading {
+  font-family: var(--font-family-main);
+  font-weight: 600;
+  font-size: 2.1em;
+  color: var(--color-font-blue);
+  margin-bottom: 0.5em;
+}
+
+.social__header-txt {
+  font-family: var(--font-family-secondary);
+  color: var(--color-font-grey);
+  font-size: 1em;
+}
+
+.social__numbers-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8em;
+}
+
+.social__numbers-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__numbers-item-header {
+  font-family: var(--font-family-main);
+  font-weight: 600;
+  font-size: 3.5em;
+  color: var(--color-font-blue);
+  margin-bottom: 0.3em;
+}
+
+.social__numbers-item-title {
+  font-family: var(--font-family-secondary);
+  font-weight: 400;
+  font-size: 1.2em;
+  color: var(--color-font-grey);
+}
+
+@media screen and (max-width: 1500px) {
+  .social {
+    padding: 6rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .social__header-txt-container {
+    font-size: 14px;
+    padding-top: 2em;
+  }
+
+  .social__numbers-item-container {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .social {
+    padding: 2rem;
+    font-size: 10px;
+  }
+  .social__header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social__header-img-container {
+    order: 2;
+    margin-bottom: 0;
+  }
+
+  .social__header-txt-container {
+    order: 1;
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .social {
+    padding: 1rem;
+  }
+
+  .social__header-txt-container {
+    font-size: 10px;
+  }
+
+  .social__numbers-container {
+    flex-direction: column;
+  }
+
+  .social__numbers-item-container {
+    font-size: 9px;
+    margin-bottom: 3em;
+  }
+}

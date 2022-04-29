@@ -1,0 +1,148 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 12rem 4rem 12rem;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-family-main);
+}
+
+.info__stats-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info__header {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.33px;
+  color: var(--color-font-blue);
+  width: 800px;
+  margin-bottom: 2rem;
+}
+
+.info__description {
+  font-family: var(--font-family-secondary);
+  width: 500px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: var(--color-font-grey);
+  margin-bottom: 5rem;
+}
+
+.info__stat-container {
+  width: 400px;
+  padding: 0 1rem;
+}
+
+.info__stat-header {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.33px;
+  color: var(--color-font-blue);
+  margin-bottom: 2rem;
+}
+
+.info__stat-description {
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: var(--color-font-grey);
+}
+
+@media screen and (max-width: 1500px) {
+  .info {
+    padding: 10rem 2rem 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .info {
+    padding: 6rem 1rem 2rem 1rem;
+  }
+
+  .info__header {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    width: 700px;
+    margin-bottom: 1.5rem;
+  }
+
+  .info__stat-header {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.5rem;
+  }
+
+  .info__description {
+    font-size: 14px;
+  }
+  .info__stat-description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info {
+    padding: 4rem 1rem 2rem 1rem;
+  }
+
+  .info__stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info__stat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info__header {
+    font-size: 25px;
+    width: 500px;
+  }
+
+  .info__description {
+    font-size: 12px;
+    margin-bottom: 2rem;
+    width: 400px;
+  }
+
+  .info__stat-header {
+    font-size: 25px;
+    margin: 0.75rem;
+  }
+
+  .info__stat-description {
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    width: 300px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .info {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  .info__header {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .info__description {
+    font-size: 10px;
+    width: 300px;
+  }
+
+  .info__stat-header {
+    font-size: 20px;
+  }
+  .info__stat-description {
+    font-size: 10px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,9 @@
+export { default as Achieve } from './achieve/Achieve';
+export { default as Blogs } from './blogs/Blogs';
+export { default as Clients } from './clients/Clients';
+export { default as CTA } from './cta/CTA';
+export { default as Footer } from './footer/Footer';
+export { default as Header } from './header/Header';
+export { default as Info } from './info/Info';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Social } from './social/Social';

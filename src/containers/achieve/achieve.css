@@ -1,0 +1,243 @@
+.achieve {
+  margin-top: 6rem;
+}
+
+.achieve__info-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 12rem 10rem 12rem;
+}
+
+.achieve__info-txt-container {
+  width: 45vw;
+}
+
+.achieve__info-txt-heading {
+  font-family: var(--font-family-main);
+  font-weight: 600;
+  font-size: 44px;
+  color: var(--color-font-blue);
+  margin-bottom: 1rem;
+  max-width: 650px;
+}
+
+.achieve__info-img-container {
+  margin-left: 1rem;
+}
+
+.achieve__info-img {
+  width: 100%;
+}
+
+.achieve__info-card-container {
+  width: 75%;
+  margin-left: 2rem;
+  padding: 2.5rem;
+  -webkit-box-shadow: 10px 50px 40px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 50px 40px 16px rgba(0, 0, 0, 0.05);
+  margin-top: 4rem;
+}
+
+.achieve__info-card-title {
+  font-family: var(--font-family-main);
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--color-font-blue);
+  margin-bottom: 1rem;
+}
+
+.achieve__info-card-txt {
+  font-family: var(--font-family-secondary);
+  font-weight: 400;
+  line-height: 22px;
+  color: #87878a;
+  letter-spacing: 0.02em;
+}
+
+.achieve__more-container {
+  background-color: #f3f5fa;
+  padding: 6rem 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.achieve__more-heading-container {
+  margin-right: 1rem;
+}
+
+.achieve__more-title {
+  font-family: var(--font-family-secondary);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #999aab;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.achieve__more-heading {
+  width: 300px;
+  font-family: var(--font-family-main);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-font-blue);
+}
+
+.achieve__more-item-container {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+
+.achieve__more-item-img {
+  width: 50px;
+  height: 50px;
+}
+
+.achieve__more-item-info-container {
+  padding: 0.5rem 1.5rem;
+}
+
+.achieve__more-item-title {
+  font-family: var(--font-family-main);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: var(--color-font-blue);
+  margin-bottom: 0.5rem;
+}
+
+.achieve__more-item-txt {
+  font-family: var(--font-family-secondary);
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--color-font-grey);
+}
+
+@media screen and (max-width: 1500px) {
+  .achieve__more-container {
+    padding: 6rem 4rem;
+  }
+
+  .achieve__info-container {
+    padding: 6rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .achieve__info-card-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .achieve__info-txt-heading {
+    font-size: 30px;
+  }
+  .achieve__info-card-title {
+    font-size: 22px;
+  }
+
+  .achieve__info-card-txt {
+    font-size: 14px;
+  }
+
+  .achieve__more-container {
+    padding: 4rem 2rem;
+  }
+
+  .achieve__more-heading {
+    font-size: 25px;
+  }
+
+  .achieve__more-item-title {
+    font-size: 20px;
+  }
+
+  .achieve__more-item-txt {
+    font-size: 14px;
+  }
+
+  .achieve__more-item-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .achieve {
+    margin-top: 1rem;
+  }
+
+  .achieve__info-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .achieve__info-txt-container {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .achieve__info-txt-heading {
+    font-size: 28px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .achieve__info-card-title {
+    font-size: 18px;
+  }
+
+  .achieve__more-container {
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .achieve__more-heading {
+    width: 80%;
+  }
+
+  .achieve__more-heading-container {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .achieve__more-item-container {
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .achieve__info-txt-heading {
+    font-size: 20px;
+  }
+
+  .achieve__info-card-title {
+    font-size: 14px;
+  }
+  .achieve__info-card-txt {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .achieve__more-heading {
+    font-size: 20px;
+  }
+
+  .achieve__more-item-title {
+    font-size: 16px;
+  }
+
+  .achieve__more-item-txt {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

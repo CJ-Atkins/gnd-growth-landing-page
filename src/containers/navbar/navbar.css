@@ -1,0 +1,162 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+  background-color: var(--color-background);
+  z-index: 2;
+}
+
+.navbar__menu-container {
+  display: flex;
+}
+
+.navbar__menu-link {
+  text-decoration: none;
+  color: #222;
+  font-family: var(--font-family-main);
+  margin: 0 2rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.navbar__menu-link--active {
+  border-bottom: 2px solid #222;
+}
+
+.navbar__btns {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__btn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: var(--font-family-main);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__btn--login {
+  text-align: center;
+  font-weight: 400;
+  color: #215c70;
+  border: 1px solid #3e8faa;
+  background-color: transparent;
+}
+
+.navbar__btn--sign-up {
+  margin-left: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #000;
+}
+
+.navbar__responsive-container {
+  display: none;
+  margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .navbar {
+    padding: 1rem 8rem;
+  }
+
+  .navbar__menu-container {
+    display: none;
+    position: relative;
+  }
+
+  .navbar__responsive-container {
+    z-index: 2;
+    display: block;
+  }
+
+  .navbar__responsive-menu-icon {
+    cursor: pointer;
+  }
+
+  .navbar__responsive-menu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 100vw;
+    background-color: var(--color-background);
+  }
+
+  .navbar__responsive-btns-container {
+    display: none;
+  }
+
+  .navbar__menu-link {
+    margin: 0 2rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .navbar__btns-container {
+    display: none;
+  }
+
+  .navbar__responsive-menu {
+    flex-direction: column;
+    align-items: flex-end;
+    top: 4rem;
+  }
+
+  .navbar__responsive-btns-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  .navbar__responsive-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 11px;
+    font-family: var(--font-family-main);
+    outline: none;
+    border: none;
+  }
+
+  .navbar__btn--responsive-login {
+    font-weight: 400;
+    color: #215c70;
+    border: 1px solid #3e8faa;
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+
+  .navbar__responsive-btn--sign-up {
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .navbar__responsive-menu {
+    top: 3.5rem;
+  }
+}

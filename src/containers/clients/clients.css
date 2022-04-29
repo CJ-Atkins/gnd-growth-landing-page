@@ -1,0 +1,49 @@
+.clients {
+  padding: 6rem 12rem;
+}
+
+.clients__header {
+  font-family: var(--font-family-main);
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  color: var(--color-font-blue);
+  text-transform: uppercase;
+}
+
+.clients__logos-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.clients__logo-container {
+  margin: 0.5rem 1.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .clients {
+    padding: 6rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .clients {
+    padding: 4rem;
+    font-size: 14px;
+  }
+
+  .clients__logo {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .clients {
+    padding: 2rem;
+    font-size: 12px;
+  }
+
+  .clients__logo {
+    width: 75px;
+  }
+}
