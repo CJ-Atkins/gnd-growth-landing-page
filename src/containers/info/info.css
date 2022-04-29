@@ -145,4 +145,8 @@
     font-size: 10px;
     width: 200px;
   }
+
+  .info__stat-container {
+    width: 100%;
+  }
 }
